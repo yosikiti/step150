@@ -4,6 +4,7 @@ from database import init_db, get_all_memos, get_memo, create_memo, update_memo,
 app = Flask(__name__)
 
 # アプリ起動時にDBを初期化
+#ここに説明を追加しました。
 init_db()
 
 @app.route("/")
